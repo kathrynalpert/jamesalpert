@@ -30,18 +30,20 @@ br{
 
 #nav{
 	float:left;
-	margin-left:5%;
-	margin-top:50px;
-	width:330px;
+	margin:10px;
+	width:400px;
 }
 
 #nav span{
 	display:none;
 }
 
-#logo,
+#logo{margin:10px;}
+#logo img.logo{height:50px; width:400px;}
+
 #menu{
 	float: right;
+  margin-top:40px;
 }
 
 #menu ul{
@@ -96,8 +98,10 @@ p.callout{
   line-height:15px;
 }
 
+#content h1{margin:20px 0 0 20px;}
+
 article#home{width:300px;margin:20px 0 0 20px;}
-article#overview, article#contact, article#services{margin:20px;}
+article#overview, article#contact, article#services{margin:10px 20px 20px 20px;}
 
 div#map{margin:20px;}
 
