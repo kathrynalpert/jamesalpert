@@ -98,7 +98,12 @@ p.callout{
   line-height:15px;
 }
 
-#content h1{margin:20px 0 0 20px;}
+#content h1{
+  letter-spacing: 2px;
+  margin: 20px 0 0 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
 
 article#home{width:300px;margin:20px 0 0 20px;}
 article#overview, article#contact, article#services{margin:10px 20px 20px 20px;}
