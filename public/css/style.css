@@ -84,18 +84,18 @@ p.callout{
 
 #content{
 	float:left;
-        width:600px;
+        width:700px;
 }
 
 #content img{
-	margin: 20px 0 20px 20px;
+  margin: 20px;
   float:left;
 }
 
 #content p{
 	margin: 5px;
-  font-size:13px;
-  line-height:15px;
+  font-size:14px;
+  line-height:18px;
 }
 
 #content h1{
@@ -105,8 +105,17 @@ p.callout{
   font-size: 30px;
 }
 
-article#home{width:300px;margin:20px 0 0 20px;}
-article#overview, article#contact, article#services{margin:10px 20px 20px 20px;}
+#content h3{
+  font-size: 12px;
+  margin: 20px 0 5px 0;
+  text-transform: uppercase;
+  letter-spacing:1px;
+  font-family: Helvetica,Verdana,Arial,sans-serif;
+}
+
+
+article#home{width:382px;margin:0 0 15px 20px;}
+article#overview, article#contact, article#services{margin:0 20px 20px 20px;}
 
 div#map{margin:20px;}
 
