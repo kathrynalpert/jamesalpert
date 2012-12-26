@@ -93,7 +93,7 @@ p.callout{
 }
 
 #content p{
-	margin: 5px;
+  margin: 0 0 10px 0;
   font-size:14px;
   line-height:18px;
 }
