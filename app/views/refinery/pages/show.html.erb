@@ -1,0 +1,6 @@
+<section id='body_content'>
+  <div id='<%= @page.title.downcase %>'>
+    <h1 id='logo'><%= Refinery::Core.site_name %></h1>
+    <%=raw @page.content_for(:body) %>
+  </div>
+</section>
